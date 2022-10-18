@@ -217,3 +217,61 @@ h6 {
     align-self: flex-end;
     color: #20313B;
 }
+
+.cta-section {
+    background-image: url(images/cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.cta-text h2 {
+    color: #20313B;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 32px; 
+}
+
+.cta-text p {
+    color: #20313B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    line-height: 2rem;
+    font-size: 16px;
+}
+
+.cta button {
+    height: 59px;
+}
+
+.footer {
+    background-color: #20313B;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.footer-content p {
+    color: #F2F5F7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    line-height: 2rem;
+    font-size: 16px;
+}
